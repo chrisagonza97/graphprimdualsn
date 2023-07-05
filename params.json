@@ -13,6 +13,21 @@
 		"source_sink_strategy": "farthest",
 		"max_num_paths": 10
 	},
+	"generate_sn": {
+		"train_samples": 20000,
+		"valid_samples": 2000,
+		"test_samples": 1,
+		"graph_name": "sens-net",
+		"osm_query":  "n/a",
+		"distance": 500,
+		"is_address": true,
+		"dataset_name": "sens-net-farthest",
+		"num_sources": 5,
+		"num_sinks": 5,
+		"source_sink_strategy": "farthest",
+		"max_num_paths": 10,
+		"sn_name": "sample_network_5_18.sn"
+	},
 	"model": {
 		"name": "neighborhood",
 		"graph_name": "sf-market-500",
